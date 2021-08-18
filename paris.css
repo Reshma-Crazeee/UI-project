@@ -1,0 +1,75 @@
+body{
+    font-family:"adobe-clean",sans-serif ;
+}
+div#hey{
+    color: red;
+    text-decoration: line-through;
+    font-size: 25px;
+    font-weight: 800;
+    padding: 10px 0px 5px 20px ;
+    
+    /* align-items: ; */
+}
+div#one{
+    color: red;
+    font-size: 30px;
+    padding: 10px;
+}
+form{
+    font-size: 25px;
+    font-weight: 900;
+    padding:20px 0px 80px 0px;
+}
+div.yes{
+    border: 2px solid red;
+    float: left;
+    margin: 20px;
+    border-radius: 20px;
+    width: 290px;
+    height: 300px;
+    padding: 10px 0px 5px 40px;
+    box-shadow: 10px 10px 5px rgb(224, 224, 224);
+}
+div.sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0px 50px 50px 50px;
+    /* font-size: 20px; */
+}
+div.ttp{
+    font-size: 50px;
+    margin: 100px 100px 20px 100px ;
+    text-align:center;
+    font-weight: 600;
+    position: relative;
+}
+
+.ttp::before{
+    content: "";
+    display: block;
+    margin-left: 300px;
+    width: 200px ;
+    height: 2px;
+    background: black;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+.ttp::after{
+    content: "";
+    display: block;
+    margin-right: 300px;
+    width: 200px;
+    height: 2px;
+    background: black;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+

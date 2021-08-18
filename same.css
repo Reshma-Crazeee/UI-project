@@ -1,0 +1,74 @@
+div.image{
+    background: url('paris.png');
+    height: 730px;
+    /* width: 100%; */
+    background-size: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    filter: blur(5px);
+    /* top: 0; */
+    /* bottom: 0; */
+    /* background-size: cover; */
+}
+div#center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 350px;
+    z-index: 5;
+    /* background-color: white; */
+
+}
+div.three{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+        border: 2px solid red;
+        background-color: white;
+        /* margin: 100px; */
+        border-radius: 15px;
+        width: 380px;
+        height: 220px;
+        /* padding: 60px; */
+        box-shadow: 10px 10px 5px rgb(224, 224, 224);
+    }
+ 
+    
+body{
+    font-family:"adobe-clean",sans-serif ;
+
+}
+div.anl{
+    color: red;
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+    
+}
+.box{
+
+    border: 2px solid red;
+     /* margin: 10px 20px 10px 20px; */
+     border-radius: 10px; 
+     height: 40px;
+     width: 280px;
+     margin: 20px 50px;
+}
+   
+div#orange{
+    border: 9px solid red;
+    background: red;
+    border-radius: 40px;
+    height: 30px;
+    width: 90px;
+    /* margin: 30px; */
+    /* color: white; */
+    text-align: center;
+    font-size: 25px;
+    margin-left: 140px;
+    /* margin-bottom: 140px; */
+}
